@@ -36,4 +36,7 @@ isset($_GET['truc']).
 - Ajout de 3 consoles dans le site e-commerce, section SEGA. 
 - Lancement de ma bible sur VS Code.
 
+## 11 Décembre
+- Ajout du dossier VS Code et snippets sur maBible.
+
 
