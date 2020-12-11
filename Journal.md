@@ -38,5 +38,7 @@ isset($_GET['truc']).
 
 ## 11 Décembre
 - Ajout du dossier VS Code et snippets sur maBible.
+- Exercices 1, 2, 3 et 4 SQL
+
 
 
