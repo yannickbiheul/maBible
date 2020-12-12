@@ -41,5 +41,8 @@ isset($_GET['truc']).
 - Exercices 1, 2, 3 et 4 SQL
 - Ajout des dossiers phpmyadmin et HTML sur maBible.
 
+## 12 Décembre
+- Ajout de cours-sql.
+
 
 
