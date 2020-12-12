@@ -42,7 +42,7 @@ isset($_GET['truc']).
 - Ajout des dossiers phpmyadmin et HTML sur maBible.
 
 ## 12 Décembre
-- Ajout de cours-sql.
+- Ajout de cours-sql, dossiers raccourcis clavier et PHP.
 
 
 
