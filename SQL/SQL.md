@@ -104,5 +104,16 @@ CREATE TRIGGER `trigger` BEFORE UPDATE ON `voiture` FOR EACH ROW SET NEW.puissan
 LOAD DATA INFILE 'villes_france_free.csv' INTO TABLE villes_france_free FIELDS TERMINATED BY ';' ENCLOSED BY '"' LINES TERMINATED BY '\r\n';
 ```
 
+## Importer base de données, et l'enregistrer dans un fichier.
+```
+mysqldump -u root -p villes_test > villes_test.sql
+```
+Viens chercher la base de données avec "mysqldump -u root -p villes_test" et l'enregistre dans un fichier avec "> villes_test.sql".
+```
+Ramener la base de données
+C:\xampp\mysql\bin>mysql -u root -p villes_test < villes_test.sql
+```
+
+
 
 

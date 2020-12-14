@@ -127,3 +127,5 @@ CMD :
 - Boyce-Code
 - Trigger
 - Importer csv
+- Importer base de données avec mysqldump
+
