@@ -14,6 +14,15 @@ Changer "Listen 80" en "Listen 8090" pour éviter les conflits (avec Skype par e
 
 Sur le navigateur, taper l'adresse "localhost:8090" pour afficher le fichier.
 
+## Afficher infos PHP
+```
+<?php
+
+    phpinfo();
+
+?>
+```
+
 ## Tableaux
 ```
 <?php

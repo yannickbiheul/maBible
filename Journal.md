@@ -32,17 +32,21 @@ isset($_GET['truc']).
 ## 10 Décembre
 >Dossier "DWWM_Backend/eCommerce2" dans htdocs
 - Terminé section Autres site e-commerce.
-- exercices 1, 2, 3 et 4 base de données villes_test (tableau villes_france_free).
+- Exercices 1, 2, 3 et 4 base de données villes_test (tableau villes_france_free).
 - Ajout de 3 consoles dans le site e-commerce, section SEGA. 
 - Lancement de ma bible sur VS Code.
 
 ## 11 Décembre
 - Ajout du dossier VS Code et snippets sur maBible.
-- Exercices 1, 2, 3 et 4 SQL
+- Exercices 1, 2, 3 et 4 base de données villes_test (tableau villes_france_free).
 - Ajout des dossiers phpmyadmin et HTML sur maBible.
 
 ## 12 Décembre
 - Ajout de cours-sql, dossiers raccourcis clavier et PHP.
+
+## 13 Décembre
+- Exercices 1, 2, 3 et 4 base de données villes_test (tableau villes_france_free).
+- Cours SQL apprendre-a-coder.com.
 
 
 
