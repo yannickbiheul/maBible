@@ -47,7 +47,7 @@ require_once("connexion.php");
 ?>
 ```
 
-# Les jointures
+## Les jointures
 
 Base de données garage2
 
@@ -84,4 +84,11 @@ SELECT * FROM voiture, marque WHERE marque.id = voiture.idmarque;
 Après :
 ```
 SELECT * FROM voiture INNER JOIN marque ON marque.id = voiture.idmarque;
+```
+
+## View
+
+Créer une vue
+```
+CREATE VIEW ma_vue AS SELECT table1.id FROM table1 INNER JOIN table2 ON table1.id = table2.id;
 ```
