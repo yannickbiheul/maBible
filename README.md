@@ -122,3 +122,8 @@ CMD :
 ## Semaine 51
 > SQL
 - View
+- Formes normales (1NF, 2NF, 3NF)
+- Clé composite
+- Boyce-Code
+- Trigger
+- Importer csv
