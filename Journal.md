@@ -48,5 +48,16 @@ isset($_GET['truc']).
 - Exercices 1, 2, 3 et 4 base de données villes_test (tableau villes_france_free).
 - Cours SQL apprendre-a-coder.com.
 
+## 14 Décembre
+- Importer csv.
+- Importer base de données avec mysqldump.
+
+## 15 Décembre
+- Création et importation d'un fichier csv dans une base de données
+- Création d'une page web permettant de :
+    - s'inscrire dans la base de données,
+    - crypter son mot de passe,
+    - se connecter depuis cette base de données.
+
 
 
