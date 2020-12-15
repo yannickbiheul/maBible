@@ -129,5 +129,6 @@ CMD :
 - Importer csv
 - Importer base de données avec mysqldump
 - Création et importation fichier csv
-- Création login / mot de passe
+- Création page web login / mot de passe
+- Utilisation de session_start et session_destroy().
 

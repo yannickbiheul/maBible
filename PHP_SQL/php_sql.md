@@ -1,9 +1,9 @@
 # PHP - SQL
 
 ## Connexion à une base de données
-Connexion en local, avec une base de données appelée "login".
+Connexion en local, avec une base de données appelée "login", qui contient une table "user".
 
-Créer un fichier, exemple "connect.php".
+Créer un fichier, par exemple "connect.php".
 
 Insérer ce try/catch :
 ```
@@ -26,7 +26,7 @@ Insérer ensuite ce fichier au début de tous ceux qui utilisent la même base d
 ```
 
 ## Entrer des données dans une table
-### Formulaire HTML vers "inscription.php"
+#### Formulaire HTML vers "inscription.php"
 ```
 <form method="POST" action="inscription.php">
         <h2>Inscription</h2>
@@ -40,7 +40,7 @@ Insérer ensuite ce fichier au début de tous ceux qui utilisent la même base d
 </form>
 ```
 
-### Page PHP (inscription.php)
+#### Page PHP (inscription.php)
 ```
 <?php
 
@@ -92,4 +92,39 @@ Insérer ensuite ce fichier au début de tous ceux qui utilisent la même base d
         echo "</table>";
 
     ?>
+```
+
+## Utiliser une base de données pour connecter un utilisateur
+```
+<form method="POST" action="">
+    <h2>Connexion</h2>
+    <label for="emailC">Email</label>
+    <input type="email" name="emailC">
+    <label for="passwordC">Mot de passe</label>
+    <input type="password" name="passwordC">
+    <input type="submit" class="submit">
+    <?php
+            
+        // Vérification de l'entrée des données
+        if ((isset($_POST['emailC'])) && (isset($_POST['passwordC']))) {
+
+            // Enregistrement des données dans des variables
+            $emailC = $_POST['emailC'];
+            $passwordC = $_POST['passwordC'];
+
+            // Sélection de la colonne correspondante
+            $sql = "SELECT * FROM user WHERE email = '" . $emailC . "'";
+            $user = $connexion->query($sql);
+            $ligneUser = $user->fetch();
+            $password_crypted = $ligneUser["password"];
+                
+            // Vérification concordance mots de passe
+            if (password_verify($passwordC, $ligneUser["password"])) {
+                echo "<p class='succes'>Excellent " . $ligneUser['name'] . ", vous êtes connecté ! </p>";
+            } else {
+                echo "<p class='erreur'>Mot de passe incorrect</p>";
+            }
+        }
+    ?>
+</form>
 ```

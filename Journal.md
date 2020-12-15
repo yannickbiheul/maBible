@@ -58,6 +58,7 @@ isset($_GET['truc']).
     - s'inscrire dans la base de données,
     - crypter son mot de passe,
     - se connecter depuis cette base de données.
+- Terminé page web.
 
 
 
