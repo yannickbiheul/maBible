@@ -47,7 +47,6 @@
 
 ## Semaine 50
 > Java
-
 Design Pattern 
 - Design Pattern 1 : Modèle Vue Contrôleur (MVC)
 - Dossier mvc dans visual studio code DWWM.
@@ -63,7 +62,6 @@ CMD :
 - tracert "site" : pour "tracer" la route qui mène au site.
 
 > PHP
-
 - Tous les identificateurs comencent par "$".
 - Tableau : $tableau = [1, 2, 3] . $tableau[0] = 1.
 - Caster les variables : $a = (integer) "10" => deviendra un entier.
@@ -119,3 +117,15 @@ CMD :
 	- Importer le fichier villes_france.sql dans cette base (176 requêtes).
 	- Faire les requêtes SQL directement dans phpmyadmin.
 - Exercice : faire une requête sur le site eCommerce qui affiche le prix moyen des produis.
+
+
+## Semaine 51
+> SQL
+- View
+- Formes normales (1NF, 2NF, 3NF)
+- Clé composite
+- Boyce-Code
+- Trigger
+- Importer csv
+- Importer base de données avec mysqldump
+

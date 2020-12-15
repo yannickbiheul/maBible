@@ -27,3 +27,12 @@
 - code : Ouvrir un fichier avec visual studio code : "code index.html"
 - ">" : Pour rediriger : "ls -l > liste.txt" : enregistre la liste des répertoires dans le fichier liste.txt
 - grep : chercher des éléments à l’intérieur d’un fichier : "grep body index.html"
+
+## Enregistrer une commande dans un fichier
+```
+C:\xampp\mysql\bin>echo test
+test
+
+C:\xampp\mysql\bin>echo test > test.txt
+```
+"test" est enregistré dans un fichier nommé "test.txt", dans le dossier "C:\xampp\mysql\bin"

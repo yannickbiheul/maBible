@@ -47,7 +47,7 @@ require_once("connexion.php");
 ?>
 ```
 
-# Les jointures
+## Les jointures
 
 Base de données garage2
 
@@ -85,3 +85,35 @@ Après :
 ```
 SELECT * FROM voiture INNER JOIN marque ON marque.id = voiture.idmarque;
 ```
+
+## View
+
+Créer une vue
+```
+CREATE VIEW ma_vue AS SELECT table1.id FROM table1 INNER JOIN table2 ON table1.id = table2.id;
+```
+
+## Trigger
+Créer un trigger
+```
+CREATE TRIGGER `trigger` BEFORE UPDATE ON `voiture` FOR EACH ROW SET NEW.puissance = 600
+```
+
+## Importer fichier csv
+```
+LOAD DATA INFILE 'villes_france_free.csv' INTO TABLE villes_france_free FIELDS TERMINATED BY ';' ENCLOSED BY '"' LINES TERMINATED BY '\r\n';
+```
+
+## Importer base de données, et l'enregistrer dans un fichier.
+```
+mysqldump -u root -p villes_test > villes_test.sql
+```
+Viens chercher la base de données avec "mysqldump -u root -p villes_test" et l'enregistre dans un fichier avec "> villes_test.sql".
+```
+Ramener la base de données
+C:\xampp\mysql\bin>mysql -u root -p villes_test < villes_test.sql
+```
+
+
+
+
