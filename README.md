@@ -132,3 +132,12 @@ CMD :
 - Création page web login / mot de passe
 - Utilisation de session_start et session_destroy().
 
+> PHP
+- Common Getaway Interface
+- Templates
+- ob-start() -> ob = Open Buffer
+- ob_get_clean()
+- Exercice template.php -> Dossier DWWM_BackEnd/template: 
+	- Ajouter menu de navigation
+	- Ajouter page à propos
+
