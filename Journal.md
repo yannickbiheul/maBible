@@ -59,6 +59,13 @@ isset($_GET['truc']).
     - crypter son mot de passe,
     - se connecter depuis cette base de données.
 - Terminé page web.
+- Connexion base de données au site Deskad.
+- Ajout section accueil au site Deskad.
+
+## 16 Décembre
+- Ajout section programme au site Deskad.
+- Terminé exercice templates dossier DWWM_BackEnd/templates.
+- Terminé exercice importer fichier .csv.
 
 
 
