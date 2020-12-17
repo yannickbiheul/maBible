@@ -69,6 +69,7 @@ isset($_GET['truc']).
 
 ## 17 Décembre
 - Création du 1er design pattern MVC
+- Terminé exercice étudiant MVC
 
 
 
