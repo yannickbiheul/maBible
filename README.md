@@ -143,4 +143,11 @@ CMD :
 	- Ajouter page à propos
 - Design Pattern MVC (Model View Controller)
 - CRUD (Create Read Update Delete)
-- 
+- Exercice : ajouter page "etudiant" au MVC
+- Base de données "formation", table "etudiant" :
+    - id
+    - code
+    - nom
+    - prenom
+    - age
+
