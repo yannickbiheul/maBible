@@ -1,4 +1,0 @@
-RewriteEngine on
-RewriteRule ^etudiants$ index.php
-
-
