@@ -67,5 +67,11 @@ isset($_GET['truc']).
 - Terminé exercice templates dossier DWWM_BackEnd/templates.
 - Terminé exercice importer fichier .csv.
 
+## 17 Décembre
+- Création base de données "formation" avec une table "cours"
+- La table cours contient : id, code, titre et langage.
+- Création d'un index.php dans le dossier DWWM_BackEnd/mvc.
+- 
+
 
 

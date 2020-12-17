@@ -135,9 +135,12 @@ CMD :
 > PHP
 - Common Getaway Interface
 - Templates
+- Routage
 - ob-start() -> ob = Open Buffer
 - ob_get_clean()
 - Exercice template.php -> Dossier DWWM_BackEnd/template: 
 	- Ajouter menu de navigation
 	- Ajouter page à propos
-
+- Design Pattern MVC (Model View Controller)
+- CRUD (Create Read Update Delete)
+- 
