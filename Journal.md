@@ -71,5 +71,15 @@ isset($_GET['truc']).
 - Création du 1er design pattern MVC
 - Terminé exercice étudiant MVC
 
+## 18 Décembre
+- Terminé exercice ajouterCours au MVC formation
+- Exercice modifierCours
+
+## 19 Décembre
+- Tuto cube 3D designer du Web
+- Personnalisation de cube 3D
+- Insertion du cube dans Deskad
+- Ajout du dossier Tutos_designer_du_web
+
 
 
