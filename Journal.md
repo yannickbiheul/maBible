@@ -85,6 +85,8 @@ isset($_GET['truc']).
 ## 20 Décembre
 - Tuto Flip-cards designer du web
 - Ajout de flip-cards.md
+- Tuto Animation Soleil designer du web
+- Ajout de animation-soleil.md
 
 
 
