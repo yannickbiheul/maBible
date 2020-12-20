@@ -80,6 +80,11 @@ isset($_GET['truc']).
 - Personnalisation de cube 3D
 - Insertion du cube dans Deskad
 - Ajout du dossier Tutos_designer_du_web
+- Ajout de cube.md
+
+## 20 Décembre
+- Tuto Flip-cards designer du web
+- Ajout de flip-cards.md
 
 
 
