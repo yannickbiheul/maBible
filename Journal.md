@@ -92,5 +92,8 @@ isset($_GET['truc']).
 - Ajout page inscription / Connexion projet formation dossier DWWM_BackEnd/MVC.
 
 ## 22 Décembre
-
+- Ajout page d'accueil dans MVC2
+- Ajout page Cours
+- Ajout formulaire ajouter Cours
+- Ajout formulaire modifier Cours
 
