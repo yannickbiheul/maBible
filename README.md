@@ -150,4 +150,17 @@ CMD :
     - nom
     - prenom
     - age
+- Ajout de l'action modifier cours
+- Ajout de l'inscription étudiant
+- Ajout  de la connexion étudiant
+- Relations entre tables dans la basee de données
+- Relation 1 à n et relation n à n.
+- Merise MCD (Modèle Conceptuel de Données)
+- Créer table inscription
+    - id
+    - id_cours
+    - id_etudiant
+    - date_inscription
+- Formulaire d'inscription d'un étudiant à un cours
+- Une fois que l'étudiant est connecté, il peut choisir ses cours
 
