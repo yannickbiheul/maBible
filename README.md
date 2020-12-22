@@ -151,6 +151,9 @@ CMD :
     - prenom
     - age
 - Ajout de l'action modifier cours
+
+## Semaine 52
+> PHP
 - Ajout de l'inscription étudiant
 - Ajout  de la connexion étudiant
 - Relations entre tables dans la basee de données
