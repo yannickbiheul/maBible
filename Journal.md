@@ -76,24 +76,31 @@ isset($_GET['truc']).
 - Exercice modifierCours
 
 ## 19 Décembre
-- Tuto cube 3D designer du Web
+> maBible/Tutos_designer_du_web
+- Tuto cube 3D 
 - Personnalisation de cube 3D
 - Insertion du cube dans Deskad
 - Ajout du dossier Tutos_designer_du_web
 - Ajout de cube.md
 
 ## 20 Décembre
-- Tuto Flip-cards designer du web
+> maBible/Tutos_designer_du_web
+- Tuto Flip-cards 
 - Ajout de flip-cards.md
-- Tuto Animation Soleil designer du web
+- Tuto Animation Soleil 
 - Ajout de animation-soleil.md
 
 ## 21 Décembre
-- Ajout page inscription / Connexion projet formation dossier DWWM_BackEnd/MVC.
+> DWWM_BackEnd/MVC
+- Ajout page inscription / Connexion
 
 ## 22 Décembre
-- Ajout page d'accueil dans MVC2
+> DWWM_BackEnd/MVC2
+- Ajout page d'accueil
 - Ajout page Cours
 - Ajout formulaire ajouter Cours
 - Ajout formulaire modifier Cours
+- Ajout page Etudiants
+- Ajout inscription
+- Ajout connexion / déconnexion
 
