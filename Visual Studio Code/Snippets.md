@@ -82,3 +82,13 @@ Ajouter les snippets après l'accolade fermante sous '"description": "Log output
 	]
 }
 ```
+
+## Snippets PHP
+```
+"varDump": {
+	"prefix": "vd",
+	"body": [
+		"var_dump($1); die();"
+	]
+}
+```
