@@ -104,3 +104,10 @@ isset($_GET['truc']).
 - Ajout inscription
 - Ajout connexion / déconnexion
 
+## 23 Décembre
+> DWWM_BackEnd/MVC2 
+- Ajout d'un espace membre
+- Modifs CSS sur les boutons
+> Youtube [Cours Merise MCD](https://www.youtube.com/playlist?list=PLcOmJ-JvAV1dhlZrmJ3XiC_oLbeJCOg81)
+
+

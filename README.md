@@ -166,4 +166,5 @@ CMD :
     - date_inscription
 - Formulaire d'inscription d'un étudiant à un cours
 - Une fois que l'étudiant est connecté, il peut choisir ses cours
-
+- Merise MLD (Modèle Logique de Données)
+- Merise MPD (Modèle Physique de Données)
