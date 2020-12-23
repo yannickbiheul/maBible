@@ -1,5 +1,12 @@
 # Java
 
+### Ouvrir un fichier .jar
+Terminal de commande
+```
+java -jar fichier.jar
+```
+
+
 ## MVC
 Model Vue Controller
 
