@@ -110,4 +110,6 @@ isset($_GET['truc']).
 - Modifs CSS sur les boutons
 > Youtube [Cours Merise MCD](https://www.youtube.com/playlist?list=PLcOmJ-JvAV1dhlZrmJ3XiC_oLbeJCOg81)
 
+> moi
+- Ajout page d'accueil
 

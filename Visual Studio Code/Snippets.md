@@ -80,6 +80,12 @@ Ajouter les snippets après l'accolade fermante sous '"description": "Log output
 		"justify-content: center;",
 		"align-items: center;"
 	]
+},
+"BackGroundLinearGradient": {
+	"prefix": "bglg",
+	"body": [
+		"background: linear-gradient(45deg, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);"
+	]
 }
 ```
 
