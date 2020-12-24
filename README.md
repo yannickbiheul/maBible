@@ -168,3 +168,7 @@ CMD :
 - Une fois que l'étudiant est connecté, il peut choisir ses cours
 - Merise MLD (Modèle Logique de Données)
 - Merise MPD (Modèle Physique de Données)
+
+> jQuery
+- Révision sélection et chgt css
+- Vu fonction get()
