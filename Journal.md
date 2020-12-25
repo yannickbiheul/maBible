@@ -119,4 +119,5 @@ isset($_GET['truc']).
 ## 25 Décembre
 > DWWM_BackEnd/MVC2
 - Modifs CSS
+> Composants
 - Création dossier composants
