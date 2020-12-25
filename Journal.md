@@ -113,3 +113,10 @@ isset($_GET['truc']).
 > moi
 - Ajout page d'accueil
 
+## 24 Décembre
+- Cours jQuery
+
+## 25 Décembre
+> DWWM_BackEnd/MVC2
+- Modifs CSS
+- Création dossier composants
