@@ -108,10 +108,20 @@ isset($_GET['truc']).
 > DWWM_BackEnd/MVC2 
 - Ajout d'un espace membre
 - Modifs CSS sur les boutons
+
 > Youtube [Cours Merise MCD](https://www.youtube.com/playlist?list=PLcOmJ-JvAV1dhlZrmJ3XiC_oLbeJCOg81)
 
 > moi
 - Ajout page d'accueil
+
+## 24 Décembre
+- Cours jQuery
+
+## 25 Décembre
+> DWWM_BackEnd/MVC2
+- Modifs CSS
+> Composants
+- Création dossier composants
 
 ## 29 Décembre
 > Composants
