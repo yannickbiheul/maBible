@@ -133,3 +133,6 @@ isset($_GET['truc']).
 > deskad_mvc
 - Création du dossier deskad_mvc.
 - Rédaction du README, sections accueil et inscription.
+- Ajout header et footer.
+- Remplissage page d'accueil.
+- Création des fichiers css.
