@@ -113,3 +113,13 @@ isset($_GET['truc']).
 > moi
 - Ajout page d'accueil
 
+## 29 Décembre
+> Composants
+- Création du dossier composants.
+
+# 2021
+
+## 3 Janvier
+> deskad_mvc
+- Création du dossier deskad_mvc.
+- Rédaction du README, sections accueil et inscription.
