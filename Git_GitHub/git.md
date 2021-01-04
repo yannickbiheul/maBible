@@ -2,6 +2,11 @@
 
 ## Commandes de base
 
+### Éviter de rentrer pseudo mot de passe
+```
+git config --global credential.helper cache
+```
+
 ### Git config
 L’une des commandes git les plus utilisées est git config. On l’utilise pour configurer les préférences de l’utilisateur : son mail, l’algorithme utilisé pour diff, le nom d’utilisateur et le format de fichier etc. Par exemple, la commande suivante peut être utilisée pour définir le mail d’un utilisateur:
 ```
@@ -19,9 +24,11 @@ La commande git add peut être utilisée pour ajouter des fichiers à l’index.
 ```
 git add temp.txt
 ```
-
-### Git add -p
 Pour vérifier ce qui a été changé sur les fichiers. On peut ensuite choisir yes (y) pour enregistrer ce morceau.
+```
+git add -p
+```
+
 
 ### Clone git
 La commande git clone est utilisée pour la vérification des dépôts. Si le dépôt se trouve sur un serveur distant, utilisez:
@@ -79,6 +86,14 @@ git branch
 Pour supprimer une branche:
 ```
 git branch –d <nom-branche>
+```
+Pour pusher une branche
+```
+git push --set-upstream origin maBranche
+```
+Pour supprimer une branche sur gitHub
+```
+git push origin --delete maBranche
 ```
 
 ### Git pull
