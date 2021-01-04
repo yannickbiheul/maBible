@@ -20,6 +20,9 @@ La commande git add peut être utilisée pour ajouter des fichiers à l’index.
 git add temp.txt
 ```
 
+### Git add -p
+Pour vérifier ce qui a été changé sur les fichiers. On peut ensuite choisir yes (y) pour enregistrer ce morceau.
+
 ### Clone git
 La commande git clone est utilisée pour la vérification des dépôts. Si le dépôt se trouve sur un serveur distant, utilisez:
 ```

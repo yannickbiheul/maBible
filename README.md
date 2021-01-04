@@ -172,3 +172,12 @@ CMD :
 > jQuery
 - Révision sélection et chgt css
 - Vu fonction get()
+
+
+# 2021
+
+## Semaine 2
+> Git / GitHub
+- Création compte gitHub
+- Création repository projetMVC
+- 
