@@ -180,4 +180,7 @@ CMD :
 > Git / GitHub
 - Création compte gitHub
 - Création repository projetMVC
+- add, commit, push, pull, merge
+
+> PHP Orienté Objets
 - 
