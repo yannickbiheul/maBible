@@ -4,12 +4,22 @@
 
 **2021**
 
+## 5 Janvier
+> htdocs/DWWM_BackEnd/Objets/port_POO
+- Reprise du programme "port" en java, implémenté en PHP.
+
+> htdocs/DWWM_BackEnd/Objets/tuto
+- Suivi tuto concepts de base POO
+
+> PHP_Objets/exemple_Objet.md
+- Reprise tuto POO points par points
+
 ## 4 Janvier
-> deskad_mvc
+> htdocs/deskad_mvc
 - Ajout des formulaires inscription / connexion.
 
 ## 3 Janvier
-> deskad_mvc
+> htdocs/deskad_mvc
 - Création du dossier deskad_mvc.
 - Rédaction du README, sections accueil et inscription.
 - Ajout header et footer.
