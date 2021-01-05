@@ -184,3 +184,4 @@ CMD :
 
 > PHP Orienté Objets
 - Début des cours POO.
+- Exercice : Implémenter le projet port fait en java en PHP.
