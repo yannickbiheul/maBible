@@ -185,3 +185,13 @@ CMD :
 > PHP Orienté Objets
 - Début des cours POO.
 - Exercice : Implémenter le projet port fait en java en PHP.
+- Classes / Instances
+- Propriétés / Méthodes
+- Constructeur / Destructeur
+- Encapsulation
+- Classes étendues / Héritage
+- Surcharge
+- Opérateur de résolution de portée
+- Constantes de classe
+- Propriétés et méthodes statiques
+- Méthodes et classes abstraites

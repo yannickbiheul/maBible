@@ -4,6 +4,13 @@
 
 **2021**
 
+## 6 Janvier
+> PHP_Objets/exemple_Objet.md
+- Continué cours jusqu'aux classes abstraites.
+
+> Cahier des Charges
+- Synthèse d'un exemple de cahier des charges
+
 ## 5 Janvier
 > htdocs/DWWM_BackEnd/Objets/port_POO
 - Reprise du programme "port" en java, implémenté en PHP.
