@@ -387,7 +387,7 @@ la classe mère.
 
 #### Définition de nouvelles propriétés et méthodes dans une classe étendue et surcharge
 
-Création d'un propriété "ban" qui contiendra les utilisateurs bannis et les méthodes setBan() et getBan().
+Création d'une propriété "ban" qui contiendra les utilisateurs bannis et les méthodes setBan() et getBan().
 > classes/admin.class.php
 ```
 <?php
@@ -444,8 +444,423 @@ Création d'un propriété "ban" qui contiendra les utilisateurs bannis et les m
 </html>
 ```
 
+#### Surcharger 
+
+Surcharger des propriétés et des méthodes : les redéfinir dans la classe fille.
+
+La nouvelle définition doit posséder le même nombre de paramètres.
+
+Changement de la méthode getNom() dans la classe Admin pour afficher le nom en majuscule (strtoupper()).
+> classes/admin.class.php
+```
+<?php
+
+    class Admin extends Utilisateur {
+        protected $ban;
+
+        public function getNom() {
+            return strtoupper($this->user_name);
+        }
+
+        public function setBan($b) {
+            $this->ban[] .= $b;
+        }
+
+        public function getBan() {
+            echo "Utilisateurs bannis par " . $this->user_name . " : ";
+            foreach ($this->ban as $valeur) {
+                echo $valeur . ", ";
+            }
+        }
+    }
+
+?>
+```
+
+On peut définir directement le nom en majuscules en surchargeant la méthode constructeur
+> classes/admin.class.php
+```
+<?php
+
+    class Admin extends Utilisateur {
+        protected $ban;
+
+        public function __construct($n, $p) {
+            $this->user_name = strtoupper($n);
+            $this->user_pass = $p;
+        }
+
+        public function setBan($b) {
+            $this->ban[] .= $b;
+        }
+
+        public function getBan() {
+            echo "Utilisateurs bannis par " . $this->user_name . " : ";
+            foreach ($this->ban as $valeur) {
+                echo $valeur . ", ";
+            }
+        }
+    }
+
+?>
+```
+
+#### Opérateur de résolution de portée
+
+Sert à accéder à la définition de base d'une propriété ou méthode surchargée.
+
+Il existe 3 mots clés pour les opérateurs de résolution de portée :
+* parent
+* self
+* static
+
+Dans la méthode getNom() de la classe mère, "return" empêche l'exécution de code après l'instruction, on le remplace donc par "echo".
+> classes/utilisateur.clas.php
+```
+<?php
+
+    class Utilisateur {
+        protected $user_name;
+        protected $user_pass;
+
+        public function __construct($n, $p) {
+            $this->user_name = $n;
+            $this->user_pass = $p;
+        }
+
+        public function getNom() {
+            echo $this->user_name;
+        }
+
+    }
+
+?>
+```
+
+Dans la classe fille, on surcharge la méthode getNom(). Elle reprendra le code de la classe mère et ajoutera une nouvelle instruction.
+> classes/admin.class.php
+```
+<?php
+
+    class Admin extends Utilisateur {
+        protected $ban;
+
+        public function __construct($n, $p) {
+            $this->user_name = strtoupper($n);
+            $this->user_pass = $p;
+        }
+
+        public function getNom() {
+            parent::getNom();
+            echo " (depuis la classe étendue)";
+        }
+
+        public function setBan($b) {
+            $this->ban[] .= $b;
+        }
+
+        public function getBan() {
+            echo "Utilisateurs bannis par " . $this->user_name . " : ";
+            foreach ($this->ban as $valeur) {
+                echo $valeur . ", ";
+            }
+        }
+    }
+
+?>
+```
+
+#### Constantes de classe
+
+Une constante appartient à la classe dans laquelle elle a été créée. Tous les objets de cette classe partageront cette constante.
+
+Ajout d'une constante ABONNEMENT à la classe utilisateur :
+> classes/utlisateur.class.php
+```
+<?php
+
+    class Utilisateur {
+        protected $user_name;
+        protected $user_pass;
+        public const ABONNEMENT = 15;
+
+        public function __construct($n, $p) {
+            $this->user_name = $n;
+            $this->user_pass = $p;
+        }
+
+        public function getNom() {
+            echo $this->user_name;
+        }
+
+    }
+
+?>
+```
+On accède à cette constante avec l'opérateur de résolution de portée.
+
+Ajout des fonctions setPrixAbo() et getPrixAbo() et des propriétés "user_region" et "prix_abo" et changement du constructeur dans la classe utilisateur :
+> classes/utilisateur.class.php
+```
+<?php
+
+    class Utilisateur {
+        protected $user_name;
+        protected $user_pass;
+        protected $user_region;
+        protected $prix_abo;
+        public const ABONNEMENT = 15;
+
+        public function __construct($n, $p, $r) {
+            $this->user_name = $n;
+            $this->user_pass = $p;
+            $this->user_region = $r;
+        }
+
+        public function getNom() {
+            echo $this->user_name;
+        }
+
+        public function setPrixAbo() {
+            // Les utilisateurs du Sud paieront 2 fois moins cher
+            if ($this->user_region === 'Sud') {
+                return $this->prix_abo = self::ABONNEMENT / 2;
+            } else {
+                return $this->prix_abo = self::ABONNEMENT;
+            }
+        }
+
+        public function getPrixAbo() {
+            echo $this->prix_abo;
+        }
+
+    }
+
+?>
+```
+On utilise "self::ABONNEMENT" car la constante est définie dans la même classe.
+
+Surcharge de la méthode setPrixAbo() dans la classe Admin :
+> classes/admin.class.php
+```
+<?php
+
+    class Admin extends Utilisateur {
+
+        protected $ban;
+        public const ABONNEMENT = 5;
+
+        public function __construct($n, $p, $r) {
+            $this->user_name = strtoupper($n);
+            $this->user_pass = $p;
+            $this->user_region = $r;
+        }
+
+        public function setBan($b) {
+            $this->ban[] .= $b;
+        }
+
+        public function getBan() {
+            echo "Utilisateurs bannis par " . $this->user_name . " : ";
+            foreach ($this->ban as $valeur) {
+                echo $valeur . ", ";
+            }
+        }
+
+        public function setPrixAbo() {
+            if ($this->user_region === 'Sud') {
+                return $this->prix_abo = self::ABONNEMENT;
+            } else {
+                return $this->prix_abo = parent::ABONNEMENT / 2;
+            }
+        }
+    }
+
+?>
+```
+Les administrateurs ont une constante ABONNEMENT de 5.
+
+Quand un administrateur vient du Sud, il paie 5 (constante de la classe Admin).
+
+Sinon, il paie 15 (constante de la classe Utilisateur) / 2.
+
+> index.php
+```
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objets PHP</title>
+</head>
+<body>
+    
+    <h1>Les objets en PHP</h1>
+
+    <?php
+
+        require 'classes/utilisateur.class.php';
+        require 'classes/admin.class.php';
+
+        $pierre = new Admin('Pierre', 'abcdef', 'Sud');
+        $mathilde = new Admin('Mathilde', 123456, 'Nord');
+        $florian = new Utilisateur('Florian', 'flotri', 'Est');
+
+        $pierre->setPrixAbo();
+        $mathilde->setPrixAbo();
+        $florian->setPrixAbo();
+
+        $u = "Utilisateur";
+        echo "Valeur de l'abonnement dans Utilisateur : " . $u::ABONNEMENT . "<br>";
+        echo "Valeur de l'abonnement dans Admin : " . Admin::ABONNEMENT . "<br>";
+
+        $texte = "Prix de l'abonnement pour : ";
+        echo $texte;
+        $pierre->getNom();
+        echo " : ";
+        $pierre->getPrixAbo();
+        echo "<br>";
+
+        echo $texte;
+        $mathilde->getNom();
+        echo " : ";
+        $mathilde->getPrixAbo();
+        echo "<br>";
+
+        echo $texte;
+        $florian->getNom();
+        echo " : ";
+        $florian->getPrixAbo();
+        echo "<br>";
 
 
+    ?>
+
+</body>
+</html>
+```
+"$u" contient "Utilisateur".
+
+"$u::ABONNEMENT" correspond donc à "Utilisateur::ABONNEMENT".
+
+#### Propriétés et méthodes statiques
+
+Une propriété ou méthode statique ne va pas appartenir à un objet en particulier mais à la classe en soi.
+
+Dans la classe Admin, on a une propriété "$ban" qui contient la liste des utilisateurs bannis.
+
+Si pierre bannit paul et jacques, la propriété "$ban" de pierre contiendra paul et jacques.
+
+Si mathilde bannit luc, la propriété "$ban" de mathilde contiendra luc.
+
+On veut que la propriété "$ban" contienne paul, jacques et luc.
+
+Pour cela, on va transformer cette propriété en propriété statique.
+
+On utilise l'opérateur de résolution de portée pour accéder à une propriété ou méthode statique.
+
+Dans la classe Admin, on déclare la propriété "$ban" comme statique, et on modifie le code des méthodes setBan() et getBan().
+
+> classes/admin.class.php
+```
+<?php
+
+    class Admin extends Utilisateur {
+
+        protected static $ban;
+        public const ABONNEMENT = 5;
+
+        public function __construct($n, $p, $r) {
+            $this->user_name = strtoupper($n);
+            $this->user_pass = $p;
+            $this->user_region = $r;
+        }
+
+        public function setBan(...$b) {
+            foreach ($b as $banned) {
+                self::$ban[] .= $banned;
+            }
+        }
+
+        public function getBan() {
+            echo "Utilisateurs bannis : ";
+            foreach (self::ban as $valeur) {
+                echo $valeur . ", ";
+            }
+        }
+
+        public function setPrixAbo() {
+            if ($this->user_region === 'Sud') {
+                return $this->prix_abo = self::ABONNEMENT;
+            } else {
+                return $this->prix_abo = parent::ABONNEMENT / 2;
+            }
+        }
+    }
+
+?>
+```
+En passant la propriété "$ban" en static, sa valeur va être partagée par tous les objets de la classe.
+
+Les 3 points (...) devant la liste des paramètres de la méthode setBan() permettent d'accepter un nombre variable d'arguments.
+
+Dans les méthodes setBan() et getBan(), on remplace "this->" par "self::" car "$ban" est désormais statique. Seul l'opérateur de résolution de portée permet d'y accéder.
+
+La boucle foreach() de la méthode setBan() définit "ban" comme un tableau ($ban[]).
+
+> index.php
+```
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objets PHP</title>
+</head>
+<body>
+    
+    <h1>Les objets en PHP</h1>
+
+    <?php
+
+        require 'classes/utilisateur.class.php';
+        require 'classes/admin.class.php';
+
+        $pierre = new Admin('Pierre', 'abcdef', 'Sud');
+        $mathilde = new Admin('Mathilde', 123456, 'Nord');
+        $florian = new Utilisateur('Florian', 'flotri', 'Est');
+
+        $pierre->setBan('Paul', 'Jacques');
+        $mathilde->setBan('Luc');
+
+        $pierre->getBan();
+        echo "<br>";
+        $mathilde->getBan();
+
+    ?>
+
+</body>
+</html>
+```
+
+#### Méthodes et classes abstraites
+
+Une classe abstraite na va pas pouvoir être instanciée directement.
+
+Elle va servir de plan pour les classes qui vont y être étendues.
+
+Une méthode abstraite est une méthode dont seule la signature (nom et paramètres) va pouvoir être déclarée.
+
+Dès qu'une classe possède une méthode abstraite, elle doit être déclarée comme classe abstraite.
+
+Lors de l'héritage d'une classe abstraite, les méthodes déclarées comme abstraites dans la classe parent doivent obligatoirement être définies dans la classe enfant avec les signatures correspondantes.
+
+On va transformer la classe Utilisateur en classe abstraite et lui étendre les classes Admin et Abonne.
+
+> classes/utilisateur.class.php
+```
+
+```
 
 
 
