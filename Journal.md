@@ -9,7 +9,8 @@
 - Continué cours jusqu'aux classes abstraites.
 
 > Cahier des Charges
-- Synthèse d'un exemple de cahier des charges
+- Synthèse d'un exemple de cahier des charges.
+- Début de création du cahier des charges de notre site wiki DWWM
 
 ## 5 Janvier
 > htdocs/DWWM_BackEnd/Objets/port_POO

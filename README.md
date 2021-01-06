@@ -195,3 +195,6 @@ CMD :
 - Constantes de classe
 - Propriétés et méthodes statiques
 - Méthodes et classes abstraites
+
+> Base de données / Méthode Merise MCD
+- 
