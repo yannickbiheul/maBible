@@ -198,3 +198,8 @@ CMD :
 
 > Base de données / Méthode Merise MCD
 - Concevoir une base de données avec Merise
+
+> MVC Objets
+- Création repo mvc_objets sur gitHub
+- Installation de Composer
+- Essai des composants composer, foirage du routeur.

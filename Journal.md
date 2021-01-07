@@ -4,6 +4,14 @@
 
 **2021**
 
+## 7 Janvier
+> Merise
+- Cours Merise MVC sur Youtube
+
+> PHP_MVC_Objets
+- Installation de composer
+- Essais composer
+
 ## 6 Janvier
 > PHP_Objets/exemple_Objet.md
 - Continué cours jusqu'aux classes abstraites.
