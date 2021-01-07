@@ -12,6 +12,9 @@
 - Installation de composer
 - Essais composer
 
+> htdocs/objet_grafikart
+- Suivi cours POO en PHP de Grafikart sur Youtube (arrêt à vidéo 5 sur 31)
+
 ## 6 Janvier
 > PHP_Objets/exemple_Objet.md
 - Continué cours jusqu'aux classes abstraites.
