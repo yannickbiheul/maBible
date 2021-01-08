@@ -203,3 +203,5 @@ CMD :
 - Création repo mvc_objets sur gitHub
 - Installation de Composer
 - Essai des composants composer, foirage du routeur.
+- Ajout dossiers Entities, Daos et Services.
+- Ajout fichiers Genre.php, BaseDao.php, GenreDao.php.

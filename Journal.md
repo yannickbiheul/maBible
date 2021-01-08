@@ -4,11 +4,17 @@
 
 **2021**
 
+## 8 Janvier
+> htdocs/mvc_objets
+- Création dossier Daos avec BaseDao.php et GenreDao.php
+- Création dossier Entities avec Genre.php
+- Création dossier Services
+
 ## 7 Janvier
 > Merise
 - Cours Merise MVC sur Youtube
 
-> PHP_MVC_Objets
+> htdocs/mvc_objets
 - Installation de composer
 - Essais composer
 
