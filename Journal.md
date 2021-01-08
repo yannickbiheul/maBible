@@ -10,6 +10,9 @@
 - Création dossier Entities avec Genre.php
 - Création dossier Services
 
+> htdocs/opc
+- Cours PHP OpenClassRooms.
+
 ## 7 Janvier
 > Merise
 - Cours Merise MVC sur Youtube
