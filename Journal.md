@@ -4,6 +4,13 @@
 
 **2021**
 
+## 9 Janvier
+> Visual Studio Code/snippets
+- Modifs snippet HTML et CSS
+> YANNICK BIHEUL
+- Début de refonte de mon CV, création index.php
+- Section Accueil
+
 ## 8 Janvier
 > htdocs/mvc_objets
 - Création dossier Daos avec BaseDao.php et GenreDao.php

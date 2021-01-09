@@ -176,7 +176,7 @@ CMD :
 
 # 2021
 
-## Semaine 2
+## Semaine 1
 > Git / GitHub
 - Création compte gitHub
 - Création repository projetMVC

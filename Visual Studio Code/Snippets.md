@@ -22,32 +22,42 @@ Ajouter les snippets après l'accolade fermante sous '"description": "Log output
 ## Snippets HTML
 ```
 "MyDoctype": {
-	"prefix": "md",
-	"body": [
-		"<!DOCTYPE html>",
-		"<html lang='fr'>",
-		"<head>",
-		"\t<meta charset='UTF-8'>",
-		"\t<meta name='viewport' content='width=device-width, initial-scale=1.0'>",
-		"\t<title>$1</title>",
-		"\t<!-- DESCRIPTION -->",
-		"\t<meta name='description' content='$2'>",
-		"\t<!-- CSS -->",
-		"\t<link rel='stylesheet' href='css/$3.css'>",
-		"\t<!-- GOOGLE FONTS -->",
-		"\t<link href='https://fonts.googleapis.com/css2?family=Roboto&display=swap' rel='stylesheet'>",
-		"\t<!-- jQuery -->",
-		"\t<script src=\"https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js\"></script>",
-		"\t<!-- JAVASCRIPT -->",
-		"\t<script src='js/$4.js' defer></script>",
-		"</head>",
-		"",
-		"<body>",
-		"",
-		"",
-		"</body>",
-		"</html>",
-	]
+    "prefix": "md",
+    "body": [
+        "<!DOCTYPE html>",
+        "<html lang='fr'>",
+        "<head>",
+        "\t<meta charset='UTF-8'>",
+        "\t<meta name='viewport' content='width=device-width, initial-scale=1.0'>",
+        "\t<title>$1</title>",
+        "\t<!-- DESCRIPTION -->",
+        "\t<meta name='description' content='$2'>",
+        "\t<!-- CSS -->",
+        "\t<link rel='stylesheet' href='css/$3.css'>",
+        "\t<!-- GOOGLE FONTS -->",
+        "\t<!-- Roboto -->",
+        "\t<link href='https://fonts.googleapis.com/css2?family=Roboto&display=swap' rel='stylesheet'>",
+        "\t<!-- Quicksand -->",
+        "\t<link rel='preconnect' href='https://fonts.gstatic.com'>",
+        "\t<link href='https://fonts.googleapis.com/css2?family=Quicksand&display=swap' rel='stylesheet'>",
+        "\t<!-- Bangers -->",
+        "\t<link rel='preconnect' href='https://fonts.gstatic.com'>",
+        "\t<link href='https://fonts.googleapis.com/css2?family=Bangers&display=swap' rel='stylesheet'>",
+        "\t<!-- FONTAWESOME -->",
+        "\t<script src='https://kit.fontawesome.com/29ef46100e.js' crossorigin='anonymous'></script>",
+        "\t<!-- jQuery -->",
+        "\t<script src=\"https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js\"></script>",
+        "</head>",
+        "",
+        "<body>",
+        "",
+        "\t",
+        "",
+        "\t<!-- JAVASCRIPT -->",
+        "\t<script src='js/$4.js'></script>",
+        "</body>",
+        "</html>",
+    ]
 }
 ```
 
@@ -84,7 +94,9 @@ Ajouter les snippets après l'accolade fermante sous '"description": "Log output
 "BackGroundLinearGradient": {
 	"prefix": "bglg",
 	"body": [
-		"background: linear-gradient(45deg, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);"
+		"background: linear-gradient(45deg, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);",
+		"background-size: cover;",
+		"background-position: center"
 	]
 }
 ```
