@@ -4,6 +4,15 @@
 
 **2021**
 
+## 10 Janvier
+> Visual Studio Code/snippets
+- Modifs snippet CSS
+> YANNICK BIHEUL
+- Section Présentation
+- Section Expériences
+- Section Compétences
+- Section Portfolio
+
 ## 9 Janvier
 > Visual Studio Code/snippets
 - Modifs snippet HTML et CSS
