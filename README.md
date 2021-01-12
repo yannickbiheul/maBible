@@ -205,3 +205,11 @@ CMD :
 - Essai des composants composer, foirage du routeur.
 - Ajout dossiers Entities, Daos et Services.
 - Ajout fichiers Genre.php, BaseDao.php, GenreDao.php.
+
+## Semaine 2
+> PHP MVC Objets
+- Affichage genres
+- Création actor director et movie
+- Tentative afichage actors
+- Exercice : afficher actors et directors
+- Exercice : ajouter un findById().
