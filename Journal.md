@@ -4,6 +4,20 @@
 
 **2021**
 
+## 12 Janvier
+>htdocs/mvc_objets
+- Ajout des fichiers actors
+- Tentative d'affichage des acteurs
+
+> htdocs/opc
+- Cours OpenClassRooms PHP/MySQL jusqu'au TP Blog
+- Création page secrète
+- Création minichat
+
+## 11 Janvier
+>htdocs/mvc_objets
+- Affichage des genres de films
+
 ## 10 Janvier
 > Visual Studio Code/snippets
 - Modifs snippet CSS
