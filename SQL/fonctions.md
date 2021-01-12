@@ -26,9 +26,11 @@ SELECT pseudo, message, DATE_ADD(date, INTERVAL 15 DAY) AS date_expiration FROM 
 ### DATE_FORMAT()
 Formater une date.
 ```
-SELECT pseudo, message, DATE_FORMAT(date, '%d/%m/%Y %Hh%imin%ss') AS date FROM minichat
+SELECT pseudo, message, DATE_FORMAT(date, "%d/%m/%Y %Hh%imin%ss") AS date FROM minichat
 ```
 Les symboles %d  , %m  , %Y  , etc., sont remplacés par le jour, le mois, l'année, etc. Les autres symboles et lettres sont affichés tels quels.
+
+Attention aux guillemets.
 
 ### DAY(), MONTH(), YEAR()
 Extraire le jour, le mois ou l'année.

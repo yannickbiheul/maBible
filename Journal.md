@@ -13,6 +13,7 @@
 - Cours OpenClassRooms PHP/MySQL jusqu'au TP Blog
 - Création page secrète
 - Création minichat
+- Création blog avec commentaires
 
 ## 11 Janvier
 >htdocs/mvc_objets

@@ -85,6 +85,15 @@ pour vérifier qu'un input n'est pas vide.
 !empty($_GET['nom']);
 ```
 
+> nl2br()
+
+permet de convertir les retours à la ligne en balises HTML "br"  . C'est une fonction dont vous aurez sûrement besoin pour conserver facilement les retours à la ligne saisis dans les formulaires.
+```
+<div class="contenuBillet">
+    <p><?php echo nl2br(htmlspecialchars($data['contenu'])) ?></p>
+</div>
+```
+
 ## Tableaux
 
 > array_key_exists()
