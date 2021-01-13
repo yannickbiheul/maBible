@@ -213,3 +213,4 @@ CMD :
 - Tentative afichage actors
 - Exercice : afficher actors et directors
 - Exercice : ajouter un findById().
+- Exercice : créer findByMovie() dans genreDAO, directorDAO et commentDAO.

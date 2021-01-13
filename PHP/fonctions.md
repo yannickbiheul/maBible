@@ -2,6 +2,20 @@
 
 ## Chaines de caractères
 
+> ltrim()
+
+Supprime les espaces (ou d'autres caractères) de début de chaîne.
+```
+ltrim ( string $string , string $characters = " \n\r\t\v\0" ) : string
+```
+**string**
+
+La chaîne d'entrée.
+
+**characters**
+
+Il est aussi possible de spécifier les caractères à supprimer en utilisant le paramètre characters. Listez simplement les caractères que vous voulez supprimer dans ce paramètre. Avec .., vous pourrez spécifier des intervalles de caractères.
+
 > strlen()
 
 Cette fonction retourne la longueur d'une chaîne de caractères.
@@ -42,6 +56,9 @@ $chaine = 'j'aimerais parler plus fort.';
 $chaine = strtoupper($chaine);
 ```
 
+> substr()
+Retourne un segment de chaîne.
+
 ## Date
 
 > date()
@@ -68,6 +85,11 @@ $minute = date('i');
 echo 'Bonjour ! Nous sommes le ' . $jour . '/' . $mois . '/' . $annee . 'et il est ' . $heure. ' h ' . $minute;
 ?>
 ```
+
+## Fichiers
+
+> dirname()
+Renvoie le chemin du dossier parent.
 
 ## Formulaires
 
