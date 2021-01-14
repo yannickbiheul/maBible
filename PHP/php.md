@@ -23,6 +23,62 @@ Sur le navigateur, taper l'adresse "localhost:8090" pour afficher le fichier.
 ?>
 ```
 
+## Envoyer un mail avec PHP
+
+**En local** :
+>C:\xampp\php\php.ini
+
+CTRL+F, chercher "mail function"
+```
+[mail function]
+; For Win32 only.
+; http://php.net/smtp
+SMTP=localhost
+; http://php.net/smtp-port
+smtp_port=25
+
+; For Win32 only.
+; http://php.net/sendmail-from
+;sendmail_from = me@example.com
+
+; For Unix only.  You may supply arguments as well (default: "sendmail -t -i").
+; http://php.net/sendmail-path
+sendmail_path = "C:\xampp\mailtodisk\mailtodisk.exe"
+```
+Entrer ces valeurs :
+```
+[mail function]
+; For Win32 only.
+; http://php.net/smtp
+SMTP=smtp.gmail.com
+; http://php.net/smtp-port
+smtp_port=587
+
+; For Win32 only.
+; http://php.net/sendmail-from
+;sendmail_from = yannickbiheul@gmail.com
+
+; For Unix only.  You may supply arguments as well (default: "sendmail -t -i").
+; http://php.net/sendmail-path
+sendmail_path = "C:\xampp\sendmail\sendmail.exe\" -t"
+```
+**En local / En ligne** :
+
+**Script PHP** :
+```
+<?php
+  $destinataire = "destinataire@gmail.com";
+  $sujet = "Email de test";
+  $corps = "Salut ceci est un email de test venant d'un script PHP";
+  $headers = "From: yannickbiheul@outlook.fr";
+  if (mail($destinataire, $sujet, $corps, $headers)) {
+    echo "Email envoyé avec succès à $destinataire ...";
+  } else {
+    echo "Échec de l'envoi de l'email...";
+  }
+?>
+```
+
 ## Tableaux
 ```
 <?php
