@@ -4,6 +4,13 @@
 
 **2021**
 
+## 14 Janvier
+>htdocs/mvcobjet
+- Affichage acteurs
+
+>htdocs/espaceMembres
+- Création du formulaire d'inscription
+
 ## 13 Janvier
 > htdocs/mvcobjet
 - Fork du git de Jam

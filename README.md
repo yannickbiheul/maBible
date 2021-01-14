@@ -72,10 +72,10 @@ CMD :
 - Afficher valeur des variables : var_dump();
 - foreach pour parcourir les tableaux associatifs.
 - Récupération des données d'un formulaire avec les méthodes GET et POST.
-- Exercice : formulaire questions réponses.
+- Exercice : formulaire questions réponses. ✔
 - Fonctions PHP + Lecture de fichier.
-- Exercice : recréer le site e-commerce en affichant les données depuis un fichier json avec PHP. 
-- Exercices sur les tableaux.
+- Exercice : recréer le site e-commerce en affichant les données depuis un fichier json avec PHP. ✔
+- Exercices sur les tableaux. ✔
 - Formats de dates en PHP.
 - Fonction include(fichier), require(fichier), include_once(fichier) et require_once(fichier).
 - Fonctions die(message) et exit(message). Envoie un message au navigateur et arrpete le programme.
@@ -89,7 +89,7 @@ CMD :
 - Connexion à la bdd en php.
 - Parcourir table voiture avec un foreach.
 - Ajouter une voiture en php.
-- Exercice : Refaire le site eCommerce en utilisant une base de données.
+- Exercice : Refaire le site eCommerce en utilisant une base de données. ✔
 
 > SQL
 - Requêtes SQL
@@ -112,11 +112,11 @@ CMD :
 - Commande INSERT INTO
 - Instruction ON DUPLICATE KEY UPDATE
 - Commande DELETE (utiliser une condition WHERE)
-- Exercice : Exercice ville de France sur sql.sh.
+- Exercice : Exercice ville de France sur sql.sh. ✔
 	- Créer base de données "villes_test" dans pshpmyadmin.
 	- Importer le fichier villes_france.sql dans cette base (176 requêtes).
 	- Faire les requêtes SQL directement dans phpmyadmin.
-- Exercice : faire une requête sur le site eCommerce qui affiche le prix moyen des produis.
+- Exercice : faire une requête sur le site eCommerce qui affiche le prix moyen des produis. ✔
 
 
 ## Semaine 51
@@ -138,12 +138,12 @@ CMD :
 - Routage
 - ob-start() -> ob = Open Buffer
 - ob_get_clean()
-- Exercice template.php -> Dossier DWWM_BackEnd/template: 
+- Exercice template.php -> Dossier DWWM_BackEnd/template: ✔
 	- Ajouter menu de navigation
 	- Ajouter page à propos
 - Design Pattern MVC (Model View Controller)
 - CRUD (Create Read Update Delete)
-- Exercice : ajouter page "etudiant" au MVC
+- Exercice : ajouter page "etudiant" au MVC ✔
 - Base de données "formation", table "etudiant" :
     - id
     - code
@@ -211,6 +211,8 @@ CMD :
 - Affichage genres
 - Création actor director et movie
 - Tentative afichage actors
-- Exercice : afficher actors et directors
-- Exercice : ajouter un findById().
-- Exercice : créer findByMovie() dans genreDAO, directorDAO et commentDAO.
+- Exercice : afficher actors et directors ✔
+- Exercice : ajouter un findById(). ✔
+- Exercice : créer findByMovie() dans genreDAO, directorDAO et commentDAO. ✔
+- Affichage acteurs
+- Exercice : Pouvoir ajouter des films.
