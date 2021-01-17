@@ -4,6 +4,22 @@
 
 **2021**
 
+## 17 Janvier
+> htdocs/blog_opc
+- Cours OpenClassRooms MVC PHP jusqu'à "modifiez un commentaire".
+
+> htdocs/poo_opc
+- Cours OpenClassRooms Programmation Orientée Objets, jusqu'à "Manipulation de données stockées".
+
+## 16 Janvier
+> htdocs/blog_opc
+- Début cours OpenClassRooms Architecture MVC en PHP 
+
+## 15 Janvier
+> htdocs/blog_opc
+- Terminé cours OpenClassRooms PHP MySQL
+- Début de création blog
+
 ## 14 Janvier
 >htdocs/mvcobjet
 - Affichage acteurs
