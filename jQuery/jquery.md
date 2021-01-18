@@ -4,27 +4,27 @@
 
 ## Fonction générique
 Fonction à utiliser dès le départ pour indiquer que c'est du jquery
-```
+```js
 jQuery(document).ready(function(){
     // Du code en jQuery va pouvoir être tapé ici !
 });
 ```
 La même fonction, minifiée
-```
+```js
 $(function(){
    // Du code en jQuery va pouvoir être tapé ici !
 });
 ```
 
 ## Sélectionner un élément
-```
+```js
 let $liens = $("p .lien");
 let $lien1 = $("p .lien:first");
 let $lien3 = $("p .lien:eq(2)");
 ```
 
 ## Définition de propriétés CSS
-```
+```js
 console.log($("#para").css("color"));
 
 // Définition de propriété CSS

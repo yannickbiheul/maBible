@@ -114,6 +114,7 @@ Pour insérer un code, il suffit de l'indenter d'une tabulation ou de 4 espaces.
 Exemple de code :
     <?php echo 'Hello World!'; ?>
 ```
+Ajouter le langage après les template strings pour la coloration.
 
 ## Code source (en ligne)
 Vous pouvez également insérer du code en mode ligne, dans un paragraphe. Entourez-le d'accents graves "`" :
