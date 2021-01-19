@@ -2,7 +2,7 @@
 
 ## connect.php
 Pour se connecter à la base de données "login", et utiliser la fonction monPrint().
-```
+```php
 <?php
     // Connexion à la base de données
         try {
@@ -21,7 +21,7 @@ Pour se connecter à la base de données "login", et utiliser la fonction monPri
 
 ## accueil.php
 Permet d'accéder à inscription, connexion, liste et déconnexion
-```
+```php
 <?php
 
     session_start();
@@ -68,7 +68,7 @@ Utilisation de session_start() pour retenir le nom du visiteur $_SESSION['name']
 
 ## inscription.php
 Enregistre les données dans la base "login" et crypte le mot de passe.
-```
+```php
 <?php
 
     session_start();
@@ -147,7 +147,7 @@ Enregistre les données dans la base "login" et crypte le mot de passe.
 
 ## connexion.php
 Se connecter depuis la base "login" en vérifiant le mot de passe.
-```
+```php
 <?php
 
     session_start();
@@ -218,7 +218,7 @@ Se connecter depuis la base "login" en vérifiant le mot de passe.
 
 ## liste.php
 Voir la liste des personnes inscrites.
-```
+```php
 <?php
 
     session_start();
@@ -283,7 +283,7 @@ Voir la liste des personnes inscrites.
 
 ## deco.php
 Se déconnecter avec session_destroy().
-```
+```php
 <?php
 
     session_start();

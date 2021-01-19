@@ -4,6 +4,18 @@
 
 **2021**
 
+## 19 Janvier
+> htdocs/mvcobjet
+- Affichage films
+- Cours fonctions FETCH.
+
+## 18 Janvier
+> htdocs/mvcobjet
+- Affichage films
+
+> htdocs/blog_opc
+- Création page édition commentaires
+
 ## 17 Janvier
 > htdocs/blog_opc
 - Cours OpenClassRooms MVC PHP jusqu'à "modifiez un commentaire".

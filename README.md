@@ -216,3 +216,9 @@ CMD :
 - Exercice : créer findByMovie() dans genreDAO, directorDAO et commentDAO. ✔
 - Affichage acteurs
 - Exercice : Pouvoir ajouter des films.
+
+## Semaine 3
+> htdocs/mvcobjet
+- MVC Objet PHP
+- Cinésite, affichage acteurs, réalisateurs, genres et films.
+- Fonctions FETCH.
