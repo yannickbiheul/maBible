@@ -41,6 +41,8 @@ nom->string->255->no ;  color->string->255->yes ; famille->string->255->yes
 ```php bin/console make:migration```
 ```php bin/console doctrine:migrations:migrate```
 
+
+
 #### Repository (model) remplace le Dao
 
 #### Les vues sont dans le dossier templates
