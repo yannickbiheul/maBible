@@ -4,8 +4,28 @@
 
 **2021**
 
+## 22 Janvier
+> htdocs/symfony/projet
+- Ré-installation de symfony
+
+> Projet Site e-commerce
+- Création du cahier des charges
+- Installation d'Adobe XD pour la maquette
+
+> Mon Blog
+- Reprise du cours OpenClassRooms PHP MVC
+- Début de la version 1
+
+## 21 Janvier
+> htdocs/symfony>projet
+- Ajout classe Espece et son twig
+- Création mini programme .bat "création dossier html, php et php mvc".
+
 ## 20 Janvier
+> htdocs/symfony>projet
+
 - Installation Symfony
+- Ajout classe Animal et son twig
 
 ## 19 Janvier
 > htdocs/mvcobjet

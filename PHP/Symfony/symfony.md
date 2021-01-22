@@ -20,6 +20,8 @@ Ensuite, se placer dans le dossier du projet.
 ### Lancer serveur
 ```symfony server:start```
 
+Sur le navigateur, taper l'URL localhost:8000 (temps de chargement)
+
 Ouvrir ensuite un nouveau terminal
 
 ### Lier la base de données et lui donner un nom
@@ -56,6 +58,8 @@ migration.
 
 ```php bin/console doctrine:migration:migrate```
 
+Répondre yes
+
 ### Fixtures
 
 Les fixtures permettent de remplir les tables pour faire des tests.
@@ -64,31 +68,46 @@ Création dossier Fixtures
 
 ```composer require orm-fixtures --dev ```
 
+(Temps de chargement)
+
 ```php bin/console make:fixtures AnimalFixtures```
 
 > AnimalFixtures.php :
 
 ```php
-use App\Entity\Animal
+<?php
 
-dans la fonction load() {
-	$a1 = new Animal();
-	$a1->setNom('cheval')->setDescription("lorem ipsum…");
-    $manager->persist($a1);
+namespace App\DataFixtures;
+
+use Doctrine\Bundle\FixturesBundle\Fixture;
+use Doctrine\Persistence\ObjectManager;
+
+use App\Entity\Animal;
+
+class AnimalFixtures extends Fixture
+{
+    public function load(ObjectManager $manager)
+    {
+        $a1 = new Animal();
+	    $a1->setNom('chevalFou')->setColor("blanc")->setFamille('equide');
+        $manager->persist($a1);
     
-	$a2 = new Animal();
-	$a2->setNom('chat')->setDescription("lorem ipsum 2…");
-	$manager->persist($a2);
+	    $a2 = new Animal();
+	    $a2->setNom('vacheFolle')->setColor("marron")->setFamille('bovide');
+	    $manager->persist($a2);
 		
-	$a3 = new Animal();
-	$a3->setNom('chien')->setDescription("lorem ipsum 2…");
-	$manager->persist($a3);
+	    $a3 = new Animal();
+	    $a3->setNom('loutreIdiote')->setColor("marron")->setFamille('mustelide');
+	    $manager->persist($a3);
 		
-	$manager->flush;
+	    $manager->flush();
+    }
 }
 ```
 
 ```php bin/console doctrine:fixtures:load ```
+
+Répondre yes
 
 ### Controller
 
