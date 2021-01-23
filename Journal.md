@@ -4,6 +4,11 @@
 
 **2021**
 
+## 23 Janvier
+> htdocs>blog_v1
+- Création index.php
+- Mise en page article
+
 ## 22 Janvier
 > htdocs/symfony/projet
 - Ré-installation de symfony
