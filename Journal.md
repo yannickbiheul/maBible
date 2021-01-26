@@ -4,6 +4,13 @@
 
 **2021**
 
+## 24 Janvier
+> htdocs/symfony/projet
+- Création classes personne et dispose
+
+> Mon Blog
+- Connexion bdd
+
 ## 23 Janvier
 > htdocs>blog_v1
 - Création index.php
@@ -28,7 +35,6 @@
 
 ## 20 Janvier
 > htdocs/symfony>projet
-
 - Installation Symfony
 - Ajout classe Animal et son twig
 

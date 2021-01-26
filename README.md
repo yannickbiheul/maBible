@@ -223,3 +223,7 @@ CMD :
 - Cinésite, affichage acteurs, réalisateurs, genres et films.
 - Fonctions FETCH.
 - Symfony
+
+## Semaine 4
+> htdocs/symfony/projet
+- Symfony
