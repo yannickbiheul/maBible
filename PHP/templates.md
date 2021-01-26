@@ -2,7 +2,7 @@
 
 ## Afficher une page d'après la méthode GET()
 #### index.php
-```
+```php
 <?php
 // Demarrage de la temporisation (rien de s'affichera)
 ob_start() ;
@@ -61,7 +61,7 @@ include 'template/template.php' ;
 ```
 
 #### template.php
-```
+```php
 <!DOCTYPE html>
 <html lang="fr">
     <head>

@@ -15,7 +15,7 @@ Changer "Listen 80" en "Listen 8090" pour éviter les conflits (avec Skype par e
 Sur le navigateur, taper l'adresse "localhost:8090" pour afficher le fichier.
 
 ## Afficher infos PHP
-```
+```php
 <?php
 
     phpinfo();
@@ -65,7 +65,7 @@ sendmail_path = "C:\xampp\sendmail\sendmail.exe\" -t"
 **En local / En ligne** :
 
 **Script PHP** :
-```
+```php
 <?php
   $destinataire = "destinataire@gmail.com";
   $sujet = "Email de test";
@@ -80,7 +80,7 @@ sendmail_path = "C:\xampp\sendmail\sendmail.exe\" -t"
 ```
 
 ## Tableaux
-```
+```php
 <?php
 
     echo "<h1>Tableau !!!</h1>";
@@ -108,7 +108,7 @@ $_SERVER permet d'accéder aux "méthodes" du serveur.
 
 
 ## Lire un fichier
-```
+```php
 <?php
 
     $fcontents = file("coucou.txt");
@@ -121,7 +121,7 @@ $_SERVER permet d'accéder aux "méthodes" du serveur.
 ```
 
 ## Parcourir un tableau de mails et l'afficher dans un tableau HTML
-```
+```php
 <?php
 
     $email = array (
@@ -148,7 +148,7 @@ $_SERVER permet d'accéder aux "méthodes" du serveur.
 ```
 
 ## Objet en PHP
-```
+```php
 <?php
 
     $data = '{
@@ -172,7 +172,7 @@ $_SERVER permet d'accéder aux "méthodes" du serveur.
 ```
 
 ### Récupérer des données depuis un fichier json
-```
+```php
 <?php
 $Json = file_get_contents("fichier.json");
 // Converts to an array 
@@ -182,7 +182,7 @@ var_dump($myarray); // prints array
 ```
 
 ## Trier des tableaux
-```
+```php
 <?php
 
     function dbg($x) {

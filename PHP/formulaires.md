@@ -2,7 +2,7 @@
 
 ## Méthode GET
 > HTML
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,8 +27,10 @@
 </body>
 </html>
 ```
+
 > PHP
-```
+
+```php
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -50,7 +52,7 @@ Les valeurs du formulaire se retrouvent dans la barre d'adresse.
 
 ## Méthode POST
 > HTML
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -76,7 +78,7 @@ Les valeurs du formulaire se retrouvent dans la barre d'adresse.
 </html>
 ```
 > PHP
-```
+```php
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -99,7 +101,7 @@ Les valeurs du formulaire se retrouvent dans la barre d'adresse.
 $_POST['fname'] permet de récupérer le "fname" donné dans le formulaire.
 
 ## Exercice formulaire questions réponses
-```
+```php
 <!DOCTYPE html>
 <html lang="en">
 <head>

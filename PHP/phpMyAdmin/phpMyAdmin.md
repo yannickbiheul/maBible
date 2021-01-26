@@ -8,7 +8,7 @@ PDO
 Copiez le code suivant et insérez-le dans votre script PHP afin d'établir une connexion à la base de données. 
 
 Pour votre sécurité, le mot de passe n'est pas affiché. Veuillez modifier votre mot de passe manuellement dans le code.
-```
+```php
 <?php
   $host_name = 'db5001296326.hosting-data.io';
   $database = 'dbs1105568';

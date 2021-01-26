@@ -6,7 +6,7 @@ Connexion en local, avec une base de données appelée "login", qui contient une
 Créer un fichier, par exemple "connect.php".
 
 Insérer ce try/catch :
-```
+```php
 <?php
     // Connexion à la base de données
     try {
@@ -17,7 +17,7 @@ Insérer ce try/catch :
 ?>
 ```
 Insérer ensuite ce fichier au début de tous ceux qui utilisent la même base de données :
-```
+```php
 <?php
 
     require_once("connect.php");
@@ -27,7 +27,7 @@ Insérer ensuite ce fichier au début de tous ceux qui utilisent la même base d
 
 ## Entrer des données dans une table
 #### Formulaire HTML vers "inscription.php"
-```
+```html
 <form method="POST" action="inscription.php">
         <h2>Inscription</h2>
         <label for="name" class="prenom">Prénom</label>
@@ -41,7 +41,7 @@ Insérer ensuite ce fichier au début de tous ceux qui utilisent la même base d
 ```
 
 #### Page PHP (inscription.php)
-```
+```php
 <?php
 
     // Vérification de l'entrée des données
@@ -64,7 +64,7 @@ Insérer ensuite ce fichier au début de tous ceux qui utilisent la même base d
 ```
 
 ## Parcourir une table dans un tableau HTML
-```
+```php
 <?php
 
         // Insertion d'une commande SQL dans une variable $sql
@@ -95,7 +95,7 @@ Insérer ensuite ce fichier au début de tous ceux qui utilisent la même base d
 ```
 
 ## Utiliser une base de données pour connecter un utilisateur
-```
+```php
 <form method="POST" action="">
     <h2>Connexion</h2>
     <label for="emailC">Email</label>
@@ -131,7 +131,7 @@ Insérer ensuite ce fichier au début de tous ceux qui utilisent la même base d
 
 ## Importer un fichier .csv dans une base de données
 
-```
+```php
 <?php
 
     // Connexion à la base de données
