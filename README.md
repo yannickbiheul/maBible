@@ -227,3 +227,10 @@ CMD :
 ## Semaine 4
 > htdocs/symfony/projet
 - Symfony
+
+> HTML /CSS
+- Révision des bases
+
+> JavaScript / jQuery
+- Évènements
+- Expressions régulières

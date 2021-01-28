@@ -4,10 +4,31 @@
 
 **2021**
 
-## 24 Janvier
+## 28 Janvier
+> Mon Blog
+- Affichage des commentaires (problème résolu)
+- Formulaire ajout commentaire
+- Includes
+- Refactoring
+- Page Articles
+
+## 27 Janvier
+> Mon Blog
+- Affichage articles accueil
+- Affichage article + commentaires (problème affichage commentaires)
+
+## 26 Janvier
+> htdocs/symfony/projet
+- Affichage animaux et personnes
+
+## 25 Janvier
 > htdocs/symfony/projet
 - Création classes personne et dispose
 
+> Mon Blog
+- Connexion à la base de données
+
+## 24 Janvier
 > Mon Blog
 - Connexion bdd
 
