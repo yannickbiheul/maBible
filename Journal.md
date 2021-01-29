@@ -4,6 +4,13 @@
 
 **2021**
 
+## 29 Janvier
+> Mon Blog
+- Vérification existence article
+
+> [w3schools.com](https://www.w3schools.com/default.asp)
+- Cours HTML jusqu'à HTML Style Guide
+
 ## 28 Janvier
 > Mon Blog
 - Affichage des commentaires (problème résolu)
