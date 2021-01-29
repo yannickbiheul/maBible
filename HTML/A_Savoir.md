@@ -1,5 +1,7 @@
 # Balises et attributs
 
+[Liste Balises](https://www.w3schools.com/tags/default.asp)
+
 ## Attribut "title"
 ```html
 <p title="un titre">
@@ -137,3 +139,42 @@ Plus d'infos : [w3schools](https://www.w3schools.com/tags/tag_base.asp)
 ![image](images/semantic.png)
 
 Plus d'infos : [w3schools](https://www.w3schools.com/html/html5_semantic_elements.asp)
+
+## Balise \<code>
+
+```html
+<code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+```
+
+## Balise \<kbd>
+
+```html
+<p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+```
+
+## Balise \<samp>
+
+```html
+<p>Message from my computer:</p>
+<p><samp>File not found.<br>Press F1 to continue</samp></p>
+```
+
+## Balise \<var>
+
+```html
+<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+```
+
+Plus d'infos : [w3schools](https://www.w3schools.com/html/html_computercode_elements.asp)
+
+## Les entités et symboles HTML
+
+Exemple : &nbsp, €, etc...
+
+[Entités](https://www.w3schools.com/html/html_entities.asp)
+
+[Symboles](https://www.w3schools.com/html/html_symbols.asp)
