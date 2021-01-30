@@ -4,6 +4,11 @@
 
 **2021**
 
+## 30 Janvier
+> [w3schools.com](https://www.w3schools.com/default.asp)
+- Exercices CSS
+- Quiz jQuery, Math et Bootstrap
+
 ## 29 Janvier
 > Mon Blog
 - Vérification existence article
