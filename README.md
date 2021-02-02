@@ -234,3 +234,13 @@ CMD :
 > JavaScript / jQuery
 - Évènements
 - Expressions régulières
+
+## Semaine 5
+> HTML / CSS / JavaScript
+- Examen
+
+> Node
+- Installation
+- Création d'un serveur
+- Lecture d'un fichier texte
+- Écriture d'un fichier texte
