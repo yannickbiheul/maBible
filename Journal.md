@@ -4,6 +4,18 @@
 
 **2021**
 
+## 2 Février
+> DWWM
+- Examen ECF2 terminé
+
+## 1 Février
+> DWWM
+- Examen ECF1 et ECF2
+
+## 31 Janvier
+> [w3schools.com](https://www.w3schools.com/default.asp)
+- Exercices JavaScript
+
 ## 30 Janvier
 > [w3schools.com](https://www.w3schools.com/default.asp)
 - Exercices CSS
