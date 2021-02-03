@@ -3,10 +3,12 @@
 ## Version 1
 
 ```js
+// http est un module de node.js
 let http = require('http');
 
 let server = http.createServer() 
 
+// Comme les eventListener en javascript, on écoute l'évènement request et on applique une fonction
 server.on('request', function(request, response) {
     response.writeHead(200, {
         'Content-Type': 'text/html; charset=utf-8'
@@ -30,4 +32,6 @@ http.createServer(function(request, response) {
 }).listen(8081)
 ```
 
-[Documentation](https://devdocs.io/node~12_lts/http#http_http_createserver_options_requestlistener)
+[http.createServer](https://devdocs.io/node~12_lts/http#http_http_createserver_options_requestlistener)
+
+[http.severResponse](https://devdocs.io/node~12_lts/http#http_class_http_serverresponse)
