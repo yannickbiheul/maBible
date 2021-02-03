@@ -6,6 +6,9 @@ CTRL+B (pas en markdown)
 #### Afficher le terminal
 CTRL+ù
 
+#### Déplacer tout un bloc de code vers la gauche
+MAJ + ALT
+
 #### Retour à la ligne
 ALT+Z (pour éviter de scroller horizontalement quand une ligne est trop longue)
 
