@@ -110,15 +110,35 @@ Ajouter les snippets après l'accolade fermante sous '"description": "Log output
 ## Snippets CSS
 ```json
 "MyCss": {
-	"prefix": "mc",
-	"body": [
-		"* {",
-		"\tmargin: 0;",
-		"\tpadding: 0;",
-		"\tbox-sizing: border-box;",
-		"\tfont-family: 'Roboto', sans-serif;",
-		"}"
-	]
+    "prefix": "mc",
+    "body": [
+        ":root {",
+        "\t--blue: #3498db;",
+        "\t--blue2: #2980b9;",
+        "\t--green: #2ecc71;",
+        "\t--green2: #27ae60;",
+        "\t--red: #e74c3c;",
+        "\t--red2: #c0392b;",
+        "\t--quicksand: 'Quicksand', sans-serif;",
+        "\t--bangers: 'bangers', sans-serif;",
+        "}",
+        "",
+        "* {",
+        "\tmargin: 0;",
+        "\tpadding: 0;",
+        "\tbox-sizing: border-box;",
+        "\tfont-family: 'Roboto', sans-serif;",
+        "}",
+        "",
+        "body {",
+        "\twidth: 100%;",
+        "\tmin-height: 100vh;",
+        "\tdisplay: flex;",
+        "\tflex-direction: column;",
+        "\tjustify-content: center;",
+        "\talign-items: center;",
+        "}"
+    ]
 },
 "FlexRowCenter": {
 		"prefix": "frc",
