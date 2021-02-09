@@ -246,3 +246,8 @@ CMD :
 - Écriture d'un fichier texte
 - Express
 - Ejs
+
+## Semaine 6
+> Node
+
+> JavaScript
