@@ -22,3 +22,13 @@ Chemin d'accès des résultats :
 ```
 C:\Windows\Logs\CBS\CBS.log
 ```
+
+## Problème de connexion interface BBox
+
+clic droit sur windows => Connexions réseaux => Modifier les options d'adaptateur => 
+
+clic droit sur Ethernet 2 => Propriétés => Protocole internet version 4 (TCP/IPv4) =>
+
+Propriétés => Serveur DNS préféré : 192.168.1.254
+
+Serveur DNS auciliaire : vide.
