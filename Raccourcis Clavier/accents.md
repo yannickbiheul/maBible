@@ -1,7 +1,5 @@
 # Les accents majuscules
 
-
-
 - Á => 	ALT+0193
 - À =>  ALT+0192
 - Â =>  ALT+0194
