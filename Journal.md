@@ -4,35 +4,47 @@
 
 **2021**
 
-## 3 Février
+## Semaine 7
+> NODE
+
+> VUE
+
+> MongoDB
+- Création base de données dwwm
+    - Création collection animaux
+
+
+## Semaine 6
+> Node
+
+> JavaScript
+
+> Vue
+
+## Semaine 5
 > NODE
 - Tuto Grafikart
 
-## 2 Février
 > DWWM
 - Examen ECF2 terminé
 
-## 1 Février
 > DWWM
 - Examen ECF1 et ECF2
 
-## 31 Janvier
+## Semaine 4
 > [w3schools.com](https://www.w3schools.com/default.asp)
 - Exercices JavaScript
 
-## 30 Janvier
 > [w3schools.com](https://www.w3schools.com/default.asp)
 - Exercices CSS
 - Quiz jQuery, Math et Bootstrap
 
-## 29 Janvier
 > Mon Blog
 - Vérification existence article
 
 > [w3schools.com](https://www.w3schools.com/default.asp)
 - Cours HTML jusqu'à HTML Style Guide
 
-## 28 Janvier
 > Mon Blog
 - Affichage des commentaires (problème résolu)
 - Formulaire ajout commentaire
@@ -40,32 +52,27 @@
 - Refactoring
 - Page Articles
 
-## 27 Janvier
 > Mon Blog
 - Affichage articles accueil
 - Affichage article + commentaires (problème affichage commentaires)
 
-## 26 Janvier
 > htdocs/symfony/projet
 - Affichage animaux et personnes
 
-## 25 Janvier
 > htdocs/symfony/projet
 - Création classes personne et dispose
 
 > Mon Blog
 - Connexion à la base de données
 
-## 24 Janvier
+## Semaine 3
 > Mon Blog
 - Connexion bdd
 
-## 23 Janvier
 > htdocs>blog_v1
 - Création index.php
 - Mise en page article
 
-## 22 Janvier
 > htdocs/symfony/projet
 - Ré-installation de symfony
 
@@ -77,57 +84,48 @@
 - Reprise du cours OpenClassRooms PHP MVC
 - Début de la version 1
 
-## 21 Janvier
 > htdocs/symfony>projet
 - Ajout classe Espece et son twig
 - Création mini programme .bat "création dossier html, php et php mvc".
 
-## 20 Janvier
 > htdocs/symfony>projet
 - Installation Symfony
 - Ajout classe Animal et son twig
 
-## 19 Janvier
 > htdocs/mvcobjet
 - Affichage films
 - Cours fonctions FETCH.
 
-## 18 Janvier
 > htdocs/mvcobjet
 - Affichage films
 
 > htdocs/blog_opc
 - Création page édition commentaires
 
-## 17 Janvier
+## Semaine 2
 > htdocs/blog_opc
 - Cours OpenClassRooms MVC PHP jusqu'à "modifiez un commentaire".
 
 > htdocs/poo_opc
 - Cours OpenClassRooms Programmation Orientée Objets, jusqu'à "Manipulation de données stockées".
 
-## 16 Janvier
 > htdocs/blog_opc
 - Début cours OpenClassRooms Architecture MVC en PHP 
 
-## 15 Janvier
 > htdocs/blog_opc
 - Terminé cours OpenClassRooms PHP MySQL
 - Début de création blog
 
-## 14 Janvier
 >htdocs/mvcobjet
 - Affichage acteurs
 
 >htdocs/espaceMembres
 - Création du formulaire d'inscription
 
-## 13 Janvier
 > htdocs/mvcobjet
 - Fork du git de Jam
 - Refactoring
 
-## 12 Janvier
 >htdocs/mvc_objets
 - Ajout des fichiers actors
 - Tentative d'affichage des acteurs
@@ -138,11 +136,10 @@
 - Création minichat
 - Création blog avec commentaires
 
-## 11 Janvier
 >htdocs/mvc_objets
 - Affichage des genres de films
 
-## 10 Janvier
+## Semaine 1
 > Visual Studio Code/snippets
 - Modifs snippet CSS
 > YANNICK BIHEUL
@@ -151,14 +148,12 @@
 - Section Compétences
 - Section Portfolio
 
-## 9 Janvier
 > Visual Studio Code/snippets
 - Modifs snippet HTML et CSS
 > YANNICK BIHEUL
 - Début de refonte de mon CV, création index.php
 - Section Accueil
 
-## 8 Janvier
 > htdocs/mvc_objets
 - Création dossier Daos avec BaseDao.php et GenreDao.php
 - Création dossier Entities avec Genre.php
@@ -167,7 +162,6 @@
 > htdocs/opc
 - Cours PHP OpenClassRooms.
 
-## 7 Janvier
 > Merise
 - Cours Merise MVC sur Youtube
 
@@ -178,7 +172,6 @@
 > htdocs/objet_grafikart
 - Suivi cours POO en PHP de Grafikart sur Youtube (arrêt à vidéo 5 sur 31)
 
-## 6 Janvier
 > PHP_Objets/exemple_Objet.md
 - Continué cours jusqu'aux classes abstraites.
 
@@ -186,7 +179,6 @@
 - Synthèse d'un exemple de cahier des charges.
 - Début de création du cahier des charges de notre site wiki DWWM
 
-## 5 Janvier
 > htdocs/DWWM_BackEnd/Objets/port_POO
 - Reprise du programme "port" en java, implémenté en PHP.
 
@@ -196,7 +188,6 @@
 > PHP_Objets/exemple_Objet.md
 - Reprise tuto POO points par points
 
-## 4 Janvier
 > htdocs/deskad_mvc
 - Ajout des formulaires inscription / connexion.
 
