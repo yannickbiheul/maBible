@@ -7,6 +7,8 @@ Pour se connecter à la base de données "login", et utiliser la fonction monPri
     // Connexion à la base de données
         try {
             $connexion = new PDO("mysql:host=localhost; dbname=login", "root", "");
+            // Pour éviter les erreurs d'encodage
+            $connexion->exec("SET CHARACTER SET utf8");
         } catch (PDOException $e) {
             echo "Problème à la connexion : " . $e->getMessage();
         }
