@@ -256,3 +256,8 @@ CMD :
 > NODE
 > VUE
 > MongoDB
+
+## Semaine 8
+> MongoDB
+> Mongoose
+> Jest
