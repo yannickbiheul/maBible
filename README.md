@@ -266,3 +266,6 @@ CMD :
 > Node
 > Socket io
 > Web Token
+> VueX
+> jwt
+> Docker
