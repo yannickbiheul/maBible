@@ -55,6 +55,8 @@ Lancer la machine virtuelle :
 
 ```docker run -ti bash```
 
+"-ti" pour le rendre intéractif : il nous donne la main.
+
 Voir l'OS en cours : 
 
 ```uname -a```
