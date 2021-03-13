@@ -1,6 +1,6 @@
 # Snippets
 
-## Connect DB
+## Connexion base de données
 ```php
 "ConnectDB": {
     "prefix": "pdo",
