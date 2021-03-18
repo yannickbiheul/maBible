@@ -274,3 +274,8 @@ CMD :
 > Projet Groupe Pied de Vigne PHP MVC Objet
 > Docker
 > WebPack
+
+## Semaine 11
+> Projet Groupe Pied de Vigne PHP MVC Objet
+> Docker
+> CMS Strapi
